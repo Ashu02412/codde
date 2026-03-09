@@ -1,0 +1,13 @@
+#!/bin/bash
+
+# Solicita os nomes
+echo "Digite o nome da primeira pessoa:"
+read name1
+echo "Digite o nome da segunda pessoa:"
+read name2
+
+# Calcula um número aleatório entre 0 e 100
+score=$(( RANDOM % 101 ))
+
+# Mostra o resultado
+echo "💖 A compatibilidade entre $name1 e $name2 é: $score% 💖"
